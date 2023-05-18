@@ -1,4 +1,4 @@
-# /bin/bash
+#! /bin/bash
 
 sudo apt install meson build-essential libpython3-dev python-gi-dev python3-pip
 

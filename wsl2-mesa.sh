@@ -1,4 +1,4 @@
-# /bin/bash
+#! /bin/bash
 sudo apt install -y build-essential libpython3-dev python-gi-dev glslang-tools python3-pip libelf-dev byacc bison flex libxml2-dev graphviz doxygen xsltproc xmlto libxcb-glx0-dev libxcb-shm0-dev libx11-xcb-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-present-dev libxshmfence-dev autoconf libtool llvm-11 libxext-dev libxfixes-dev libxxf86vm-dev libxrandr-dev
 
 sudo pip3 install mako
