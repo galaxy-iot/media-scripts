@@ -27,7 +27,7 @@ fi
 
 cd ${base_dir}
 
-sudo apt install libopencv-dev nasm libx264-dev libx265-dev
+sudo apt install -y libopencv-dev nasm libx264-dev libx265-dev
 
 if [ ! -f "gstreamer-"${gstreamer_version}".tar.gz" ];then
   echo "gstreamer not found, cloning"
